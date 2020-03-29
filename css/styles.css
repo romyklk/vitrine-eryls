@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    color: #333;
+}
+
+p{
+    margin-bottom: 0.8rem;
+}
+
+h1,h2,h3,h4{
+    margin-bottom: 1rem;
+}
+
+a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+strong{
+    color: gold;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+em{
+    color: #555;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: white;
+}
+
+/*HEADER*/
+
+.vp-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 1rem 2rem;
+    background-color: #333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 1.8rem;
+}
+
+.vp-logo{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    font-family: 'Long Cang', cursive;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vpi{
+    color:gold;
+    font-size: 1.9rem;
+    margin-right: 0.5rem;
+}
+
+.vp-logo a{
+    font-size: 3rem;
+    font-weight: 300px;
+}
+header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    color: white;
+}
+header ul li{
+    padding: 1rem;
+}
+header ul li a:hover{
+    color: gold;
+}
+
+header a{
+    color: white;
+}
+
+.vp{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/paris.jpg) center center/cover;
+    
+}
+
+.vp-content{
+    max-width: 800px;
+    text-align: center;
+    color: #f5f6fa;
+}
+
+.vp-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.vp-content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2rem; 
+}
+
+/*OFFER*/
+
+.offer{
+    padding: 10rem 1rem 10rem 1 rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+.offer-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.offer-elem{
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 1rem;
+    flex: 1;
+}
+
+.offer-elem-img{
+    width: 100%;
+}
+
+.offer-elem-text{
+    padding: 2rem;
+    text-align: center;
+}
+.offer-separator{
+    height: 2px;
+    width: 50px;
+    margin:1rem auto;
+    background-color: #333;
+}
+
+
+/*WHO*/
+
+.who{
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 600px;
+}
+
+.who-content-img{
+    flex: 1;
+    background: url(../img/equipe.jpg) center center/cover;
+}
+
+.who-content-text{
+    flex: 1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+}
+
+.who-content-text p{
+    font-size: 1.3rem;
+    
+}
+
+.who-content-text h2{
+    margin-bottom: 2rem;
+}
+
+/*TESTIMONIALS*/
+
+.testimonials{
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-elem{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;  
+}
+
+.testimonials-elem-text{
+    padding: 0 2rem;
+}
+
+.testimonials-elem-text p i{
+    margin: 0 2rem;
+}
+
+.testimonials-elem-profil img{
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials-elem-text p{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/*CONTACT*/
+
+.contact{
+    padding: 10rem 1rem 10rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form input{
+    background-color: #333;
+    border: 0;
+    border-bottom: 1px solid #555;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+.contact-form button{
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 30px;
+    background-color: lightblue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+        background-color: navy;
+        color: white;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #444;
+    padding: 5rem 1rem 5rem 1rem;
+    color: white;
+    text-align: center;
+
+}
+
+footer p{
+    margin-bottom: 0;
+}
